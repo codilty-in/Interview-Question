@@ -1,3 +1,51 @@
+/*////Create Employee Tree
+3//Number of Company
+Fred,Karl,Technician,2010--Karl,Cathy,VP,2009--Cathy,NULL,CEO,2007
+Adam,Karl,Technician,2010--Bob,Karl,Technician,2012--Cathy,Karl,Technician,2013--Karl,Nancy,Manager,2009--Wendy,Nancy,Technician,2012--Nancy,NULL,CEO,2007
+Fred,Cathy,Technician,2010--Nancy,Wendy,Technician,2013--Vince,Karl,VP,2009--Bob,Susan,Manager,2010--Adam,Susan,Technician,2011--Ned,Wendy,Technician,2009--Liam,Wendy,Technician,2007--Dan,Ryan,Director,2008--Carl,Susan,Technician,2010--Ed,Wendy,Technician,2007--Patty,Wendy,Technician,2008--Tom,Susan,Technician,2011--Sam,Susan,Technician,2008--Lilly,Jack,Manager,2007--Amy,Jill,Technician,2012--Wendy,Dan,Manager,2010--Cathy,Vince,Director,2006--Susan,Vince,Director,2009--Betty,Cathy,Manager,2012--Oscar,Betty,Technician,2006--Jill,Dan,Manager,2012--Katie,Jill,Technician,2007--Paul,Bob,Technician,2007--Ryan,Karl,VP,2007--Mary,Lilly,Technician,2013--Matt,Jill,Technician,2007--Karl,NULL,CEO,2005--Jack,Ryan,Director,2009
+
+output:
+Case #1
+Cathy (CEO) 2007
+-Karl (VP) 2009
+--Fred (Technician) 2010
+Case #2
+Nancy (CEO) 2007
+-Karl (Manager) 2009
+--Adam (Technician) 2010
+--Bob (Technician) 2012
+--Cathy (Technician) 2013
+-Wendy (Technician) 2012
+Case #3
+Karl (CEO) 2005
+-Ryan (VP) 2007
+--Dan (Director) 2008
+---Jill (Manager) 2012
+----Amy (Technician) 2012
+----Katie (Technician) 2007
+----Matt (Technician) 2007
+---Wendy (Manager) 2010
+----Ed (Technician) 2007
+----Liam (Technician) 2007
+----Nancy (Technician) 2013
+----Ned (Technician) 2009
+----Patty (Technician) 2008
+--Jack (Director) 2009
+---Lilly (Manager) 2007
+----Mary (Technician) 2013
+-Vince (VP) 2009
+--Cathy (Director) 2006
+---Betty (Manager) 2012
+----Oscar (Technician) 2006
+---Fred (Technician) 2010
+--Susan (Director) 2009
+---Adam (Technician) 2011
+---Bob (Manager) 2010
+----Paul (Technician) 2007
+---Carl (Technician) 2010
+---Sam (Technician) 2008
+---Tom (Technician) 2011
+*/
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Hashtable;
